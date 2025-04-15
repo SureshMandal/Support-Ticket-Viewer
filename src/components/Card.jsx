@@ -32,21 +32,7 @@ return (
                 )}
             </div>
             <div className="d-flex align-items-center mb-2">
-                {profilePic ? (
-                    <img
-                        src={profilePic}
-                        alt="Avatar"
-                        className="rounded-circle me-2"
-                        style={{ width: '40px', height: '40px' }}
-                    />
-                ) : (
-                    <div
-                        className="bg-secondary text-white rounded-circle d-flex align-items-center justify-content-center me-2"
-                        style={{ width: '40px', height: '40px' }}
-                    >
-                        {initials}
-                    </div>
-                )}
+                
                 <p className="mb-0">
                     <strong>{customerName}</strong>
                 </p>
